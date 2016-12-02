@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>nearest - org.isarnproject.collections.mixmaps.nearest</title>
+          <meta name="description" content="nearest - org.isarnproject.collections.mixmaps.nearest" />
+          <meta name="keywords" content="nearest org.isarnproject.collections.mixmaps.nearest" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'org.isarnproject.collections.mixmaps.nearest.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="org">org</a>.<a href="../../../package.html" class="extype" name="org.isarnproject">isarnproject</a>.<a href="../../package.html" class="extype" name="org.isarnproject.collections">collections</a>.<a href="../package.html" class="extype" name="org.isarnproject.collections.mixmaps">mixmaps</a></p>
+        <h1>nearest</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nearest</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.isarnproject.collections.mixmaps.nearest.Cover" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Cover[+T]extendsProductwithSerializable"></a>
+      <a id="Cover[+T]:Cover[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Cover.html"><span class="name">Cover</span></a><span class="tparams">[<span name="T">+T</span>]</span><span class="params">(<span name="l">l: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.Cover.T">T</span>]</span>, <span name="r">r: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.Cover.T">T</span>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.NearestLike" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="NearestLike[K,+IN&lt;:org.isarnproject.collections.mixmaps.nearest.tree.INodeNear[K],+M&lt;:org.isarnproject.collections.mixmaps.nearest.NearestLike[K,IN,M]]extendsNodeNear[K]withOrderedLike[K,IN,M]"></a>
+      <a id="NearestLike[K,+IN&lt;:INodeNear[K],+M&lt;:NearestLike[K,IN,M]]:NearestLike[K,IN,M]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="NearestLike.html"><span class="name">NearestLike</span></a><span class="tparams">[<span name="K">K</span>, <span name="IN">+IN &lt;: <a href="tree/INodeNear.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.tree.INodeNear">INodeNear</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.K">K</span>]</span>, <span name="M">+M &lt;: <a href="NearestLike.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike">NearestLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.M">M</span>]</span>]</span><span class="result"> extends <a href="tree/NodeNear.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.tree.NodeNear">NodeNear</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.K">K</span>] with <a href="../ordered/OrderedLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike">OrderedLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike.M">M</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">An inheritable and mixable trait for adding nearest-key query to ordered containers</p>
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.NearestMap" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="NearestMap[K,+V]extendsSortedMap[K,V]withNearestMapLike[K,V,org.isarnproject.collections.mixmaps.nearest.tree.INodeNearMap[K,V],org.isarnproject.collections.mixmaps.nearest.NearestMap[K,V]]"></a>
+      <a id="NearestMap[K,+V]:NearestMap[K,V]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="NearestMap.html"><span class="name">NearestMap</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">+V</span>]</span><span class="result"> extends <span class="extype" name="scala.collection.SortedMap">SortedMap</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.V">V</span>] with <a href="NearestMapLike.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike">NearestMapLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.V">V</span>, <a href="tree/INodeNearMap.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.tree.INodeNearMap">INodeNearMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.V">V</span>], <a href="NearestMap.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap">NearestMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMap.V">V</span>]]</span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="NearestMapLike[K,+V,+IN&lt;:org.isarnproject.collections.mixmaps.nearest.tree.INodeNearMap[K,V],+M&lt;:org.isarnproject.collections.mixmaps.nearest.NearestMapLike[K,V,IN,M]withscala.collection.SortedMap[K,V]]extendsNodeNearMap[K,V]withNearestLike[K,IN,M]withOrderedMapLike[K,V,IN,M]"></a>
+      <a id="NearestMapLike[K,+V,+IN&lt;:INodeNearMap[K,V],+M&lt;:NearestMapLike[K,V,IN,M]withSortedMap[K,V]]:NearestMapLike[K,V,IN,M]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="NearestMapLike.html"><span class="name">NearestMapLike</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">+V</span>, <span name="IN">+IN &lt;: <a href="tree/INodeNearMap.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.tree.INodeNearMap">INodeNearMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.V">V</span>]</span>, <span name="M">+M &lt;: <a href="NearestMapLike.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike">NearestMapLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.V">V</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.M">M</span>] with <span class="extype" name="scala.collection.SortedMap">SortedMap</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.V">V</span>]</span>]</span><span class="result"> extends <a href="tree/NodeNearMap.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.tree.NodeNearMap">NodeNearMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.V">V</span>] with <a href="NearestLike.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike">NearestLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.M">M</span>] with <a href="../ordered/OrderedMapLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike">OrderedMapLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.V">V</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestMapLike.M">M</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">An inheritable and mixable trait for adding nearest-key query to an ordered map</p>
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.NearestSet" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="NearestSet[K]extendsSortedSet[K]withNearestSetLike[K,org.isarnproject.collections.mixmaps.nearest.tree.INodeNear[K],org.isarnproject.collections.mixmaps.nearest.NearestSet[K]]"></a>
+      <a id="NearestSet[K]:NearestSet[K]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="NearestSet.html"><span class="name">NearestSet</span></a><span class="tparams">[<span name="K">K</span>]</span><span class="result"> extends <span class="extype" name="scala.collection.SortedSet">SortedSet</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSet.K">K</span>] with <a href="NearestSetLike.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike">NearestSetLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSet.K">K</span>, <a href="tree/INodeNear.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.tree.INodeNear">INodeNear</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSet.K">K</span>], <a href="NearestSet.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSet">NearestSet</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSet.K">K</span>]]</span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="NearestSetLike[K,IN&lt;:org.isarnproject.collections.mixmaps.nearest.tree.INodeNear[K],M&lt;:org.isarnproject.collections.mixmaps.nearest.NearestSetLike[K,IN,M]withscala.collection.SortedSet[K]]extendsNearestLike[K,IN,M]withOrderedSetLike[K,IN,M]"></a>
+      <a id="NearestSetLike[K,IN&lt;:INodeNear[K],M&lt;:NearestSetLike[K,IN,M]withSortedSet[K]]:NearestSetLike[K,IN,M]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="NearestSetLike.html"><span class="name">NearestSetLike</span></a><span class="tparams">[<span name="K">K</span>, <span name="IN">IN &lt;: <a href="tree/INodeNear.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.tree.INodeNear">INodeNear</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.K">K</span>]</span>, <span name="M">M &lt;: <a href="NearestSetLike.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike">NearestSetLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.M">M</span>] with <span class="extype" name="scala.collection.SortedSet">SortedSet</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.K">K</span>]</span>]</span><span class="result"> extends <a href="NearestLike.html" class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestLike">NearestLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.M">M</span>] with <a href="../ordered/OrderedSetLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike">OrderedSetLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.nearest.NearestSetLike.M">M</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">An inheritable and mixable trait for adding nearest-key query to an ordered set</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.isarnproject.collections.mixmaps.nearest.NearestMap" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NearestMap"></a>
+      <a id="NearestMap:NearestMap"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NearestMap$.html"><span class="name">NearestMap</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.NearestSet" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NearestSet"></a>
+      <a id="NearestSet:NearestSet"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NearestSet$.html"><span class="name">NearestSet</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.infra" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="infra"></a>
+      <a id="infra:infra"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="infra/package.html"><span class="name">infra</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.nearest.tree" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="tree"></a>
+      <a id="tree:tree"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="tree/package.html"><span class="name">tree</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../lib/template.js"></script>
+    </body>
+      </html>

@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>ordered - org.isarnproject.collections.mixmaps.ordered</title>
+          <meta name="description" content="ordered - org.isarnproject.collections.mixmaps.ordered" />
+          <meta name="keywords" content="ordered org.isarnproject.collections.mixmaps.ordered" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'org.isarnproject.collections.mixmaps.ordered.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="org">org</a>.<a href="../../../package.html" class="extype" name="org.isarnproject">isarnproject</a>.<a href="../../package.html" class="extype" name="org.isarnproject.collections">collections</a>.<a href="../package.html" class="extype" name="org.isarnproject.collections.mixmaps">mixmaps</a></p>
+        <h1>ordered</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ordered</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.isarnproject.collections.mixmaps.ordered.OrderedLike" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OrderedLike[K,+IN&lt;:org.isarnproject.collections.mixmaps.redblack.tree.INode[K],+M&lt;:org.isarnproject.collections.mixmaps.ordered.OrderedLike[K,IN,M]]extendsNode[K]"></a>
+      <a id="OrderedLike[K,+IN&lt;:INode[K],+M&lt;:OrderedLike[K,IN,M]]:OrderedLike[K,IN,M]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderedLike.html"><span class="name">OrderedLike</span></a><span class="tparams">[<span name="K">K</span>, <span name="IN">+IN &lt;: <a href="../redblack/tree/INode.html" class="extype" name="org.isarnproject.collections.mixmaps.redblack.tree.INode">INode</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike.K">K</span>]</span>, <span name="M">+M &lt;: <a href="OrderedLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike">OrderedLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike.M">M</span>]</span>]</span><span class="result"> extends <a href="../redblack/tree/Node.html" class="extype" name="org.isarnproject.collections.mixmaps.redblack.tree.Node">Node</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike.K">K</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">An inheritable (and mixable) trait representing Ordered container functionality that is
+backed by a Red/Black tree implemenation.</p>
+    </li><li name="org.isarnproject.collections.mixmaps.ordered.OrderedMap" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OrderedMap[K,+V]extendsSortedMap[K,V]withOrderedMapLike[K,V,org.isarnproject.collections.mixmaps.ordered.tree.INodeMap[K,V],org.isarnproject.collections.mixmaps.ordered.OrderedMap[K,V]]"></a>
+      <a id="OrderedMap[K,+V]:OrderedMap[K,V]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderedMap.html"><span class="name">OrderedMap</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">+V</span>]</span><span class="result"> extends <span class="extype" name="scala.collection.SortedMap">SortedMap</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.V">V</span>] with <a href="OrderedMapLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike">OrderedMapLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.V">V</span>, <a href="tree/INodeMap.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.tree.INodeMap">INodeMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.V">V</span>], <a href="OrderedMap.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap">OrderedMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMap.V">V</span>]]</span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OrderedMapLike[K,+V,+IN&lt;:org.isarnproject.collections.mixmaps.ordered.tree.INodeMap[K,V],+M&lt;:org.isarnproject.collections.mixmaps.ordered.OrderedMapLike[K,V,IN,M]withscala.collection.SortedMap[K,V]]extendsNodeMap[K,V]withOrderedLike[K,IN,M]withSortedMapLike[K,V,M]"></a>
+      <a id="OrderedMapLike[K,+V,+IN&lt;:INodeMap[K,V],+M&lt;:OrderedMapLike[K,V,IN,M]withSortedMap[K,V]]:OrderedMapLike[K,V,IN,M]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderedMapLike.html"><span class="name">OrderedMapLike</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">+V</span>, <span name="IN">+IN &lt;: <a href="tree/INodeMap.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.tree.INodeMap">INodeMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.V">V</span>]</span>, <span name="M">+M &lt;: <a href="OrderedMapLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike">OrderedMapLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.V">V</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.M">M</span>] with <span class="extype" name="scala.collection.SortedMap">SortedMap</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.V">V</span>]</span>]</span><span class="result"> extends <a href="tree/NodeMap.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.tree.NodeMap">NodeMap</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.V">V</span>] with <a href="OrderedLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike">OrderedLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.M">M</span>] with <span class="extype" name="scala.collection.SortedMapLike">SortedMapLike</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.V">V</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedMapLike.M">M</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">An inheritable (and mixable) trait representing Ordered Map functionality that is
+backed by a Red/Black tree implemenation.</p>
+    </li><li name="org.isarnproject.collections.mixmaps.ordered.OrderedSet" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OrderedSet[K]extendsSortedSet[K]withOrderedSetLike[K,org.isarnproject.collections.mixmaps.redblack.tree.INode[K],org.isarnproject.collections.mixmaps.ordered.OrderedSet[K]]"></a>
+      <a id="OrderedSet[K]:OrderedSet[K]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderedSet.html"><span class="name">OrderedSet</span></a><span class="tparams">[<span name="K">K</span>]</span><span class="result"> extends <span class="extype" name="scala.collection.SortedSet">SortedSet</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSet.K">K</span>] with <a href="OrderedSetLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike">OrderedSetLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSet.K">K</span>, <a href="../redblack/tree/INode.html" class="extype" name="org.isarnproject.collections.mixmaps.redblack.tree.INode">INode</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSet.K">K</span>], <a href="OrderedSet.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSet">OrderedSet</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSet.K">K</span>]]</span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OrderedSetLike[K,IN&lt;:org.isarnproject.collections.mixmaps.redblack.tree.INode[K],M&lt;:org.isarnproject.collections.mixmaps.ordered.OrderedSetLike[K,IN,M]withscala.collection.SortedSet[K]]extendsOrderedLike[K,IN,M]withSetLike[K,M]withSortedSetLike[K,M]"></a>
+      <a id="OrderedSetLike[K,IN&lt;:INode[K],M&lt;:OrderedSetLike[K,IN,M]withSortedSet[K]]:OrderedSetLike[K,IN,M]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderedSetLike.html"><span class="name">OrderedSetLike</span></a><span class="tparams">[<span name="K">K</span>, <span name="IN">IN &lt;: <a href="../redblack/tree/INode.html" class="extype" name="org.isarnproject.collections.mixmaps.redblack.tree.INode">INode</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.K">K</span>]</span>, <span name="M">M &lt;: <a href="OrderedSetLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike">OrderedSetLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.M">M</span>] with <span class="extype" name="scala.collection.SortedSet">SortedSet</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.K">K</span>]</span>]</span><span class="result"> extends <a href="OrderedLike.html" class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedLike">OrderedLike</a>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.IN">IN</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.M">M</span>] with <span class="extype" name="scala.collection.SetLike">SetLike</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.M">M</span>] with <span class="extype" name="scala.collection.SortedSetLike">SortedSetLike</span>[<span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.K">K</span>, <span class="extype" name="org.isarnproject.collections.mixmaps.ordered.OrderedSetLike.M">M</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">An inheritable (and mixable) trait representing Ordered Set functionality that is
+backed by a Red/Black tree implemenation.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.isarnproject.collections.mixmaps.ordered.OrderedMap" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OrderedMap"></a>
+      <a id="OrderedMap:OrderedMap"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderedMap$.html"><span class="name">OrderedMap</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.ordered.OrderedSet" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OrderedSet"></a>
+      <a id="OrderedSet:OrderedSet"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderedSet$.html"><span class="name">OrderedSet</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.ordered.infra" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="infra"></a>
+      <a id="infra:infra"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="infra/package.html"><span class="name">infra</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="org.isarnproject.collections.mixmaps.ordered.tree" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="tree"></a>
+      <a id="tree:tree"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="tree/package.html"><span class="name">tree</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../lib/template.js"></script>
+    </body>
+      </html>
