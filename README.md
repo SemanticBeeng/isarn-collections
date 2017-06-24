@@ -10,7 +10,7 @@ https://isarn.github.io/isarn-collections/latest/api/
 ``` scala
 resolvers += "isarn project" at "https://dl.bintray.com/isarn/maven/"
 
-libraryDependencies += "org.isarnproject" %% "isarn-collections" % "0.0.1"
+libraryDependencies += "org.isarnproject" %% "isarn-collections" % "0.0.2"
 ```
 
 #### maven
@@ -18,7 +18,7 @@ libraryDependencies += "org.isarnproject" %% "isarn-collections" % "0.0.1"
 <dependency> 
   <groupId>org.isarnproject</groupId>
   <artifactId>isarn-collections_2.10</artifactId> 
-  <version>0.0.1</version> 
+  <version>0.0.2</version>
   <type>pom</type> 
 </dependency>
 ```
