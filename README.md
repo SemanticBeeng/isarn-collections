@@ -6,19 +6,6 @@ https://isarn.github.io/isarn-collections/latest/api/
 
 ### How to use in your project
 
-#### sbt
 ``` scala
-resolvers += "isarn project" at "https://dl.bintray.com/isarn/maven/"
-
-libraryDependencies += "org.isarnproject" %% "isarn-collections" % "0.0.2"
-```
-
-#### maven
-``` xml
-<dependency> 
-  <groupId>org.isarnproject</groupId>
-  <artifactId>isarn-collections_2.10</artifactId> 
-  <version>0.0.2</version>
-  <type>pom</type> 
-</dependency>
+libraryDependencies += "org.isarnproject" %% "isarn-collections" % "0.0.3"
 ```
