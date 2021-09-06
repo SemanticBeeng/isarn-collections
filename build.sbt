@@ -8,9 +8,9 @@ organization := "org.isarnproject"
 
 version := "0.0.5-SNAPSHOT"
 
-scalaVersion := "2.11.12"
+scalaVersion := "2.12.13"
 
-crossScalaVersions := Seq("2.11.12", "2.12.6")
+crossScalaVersions := Seq("2.11.12", "2.12.13")
 
 pomIncludeRepository := { _ => false }
 
@@ -54,12 +54,12 @@ libraryDependencies ++= Seq(
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
 
-scalacOptions in (Compile, doc) ++= Seq("-doc-root-content", baseDirectory.value+"/root-doc.txt")
+//scalacOptions in (Compile, doc) ++= Seq("-doc-root-content", baseDirectory.value+"/root-doc.txt")
 
-enablePlugins(ScalaUnidocPlugin, GhpagesPlugin)
+//enablePlugins(ScalaUnidocPlugin, GhpagesPlugin)
 
-siteSubdirName in ScalaUnidoc := "latest/api"
+//siteSubdirName in ScalaUnidoc := "latest/api"
 
-addMappingsToSiteDir(mappings in (ScalaUnidoc, packageDoc), siteSubdirName in ScalaUnidoc)
+//addMappingsToSiteDir(mappings in (ScalaUnidoc, packageDoc), siteSubdirName in ScalaUnidoc)
 
 git.remoteRepo := "git@github.com:isarn/isarn-collections.git"

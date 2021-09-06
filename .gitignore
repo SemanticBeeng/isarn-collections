@@ -10,6 +10,10 @@ target/
 lib_managed/
 src_managed/
 project/boot/
+.bsp/
+project/.boot/
+project/.ivy/
+project/.sbtboot/
 project/plugins/project/
 
 # Scala-IDE specific
